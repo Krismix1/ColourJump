@@ -8,29 +8,29 @@ public class ChangeColour : MonoBehaviour {
     public Material blueMaterial;
     public Material greenMaterial;
     public Material yellowMaterial;
-    public GameManager.Colors color;
+    public GameManager.Colors colour;
 
     GameManager.Colors ChangeColor(Renderer rend, int colorID)
     {
         switch (colorID)
         {
             case 0:
-                color = GameManager.Colors.RED;
+                colour = GameManager.Colors.RED;
                 rend.material = redMaterial;
                 break;
             case 1:
-                color = GameManager.Colors.GREEN;
+                colour = GameManager.Colors.GREEN;
                 rend.material = greenMaterial;
                 break;
             case 2:
-                color = GameManager.Colors.BLUE;
+                colour = GameManager.Colors.BLUE;
                 rend.material = blueMaterial;
                 break;
             case 3:
-                color = GameManager.Colors.YELLOW;
+                colour = GameManager.Colors.YELLOW;
                 rend.material = yellowMaterial;
                 break;
         }
-        return color;
+        return colour;
     }
 }

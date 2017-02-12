@@ -24,18 +24,13 @@ public class PlayerMovement : MonoBehaviour {
             Debug.Log("Please attach Rigidbody to the " + transform.name);
         }
 	}
-	
-	void FixedUpdate ()
-    {
-        rb.AddForce(Vector3.forward * forwardForce * Time.deltaTime);
-	}
 
     public void Jump()
     {
         isGrounded = Physics.OverlapSphere(groundPoint.position, radius, groundLayer).Length >= 0;
         if (isGrounded)
         {
-            rb.AddForce(Vector3.up * jumpForce);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Acceleration);
             isGrounded = false;
         }
     }
