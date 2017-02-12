@@ -8,7 +8,7 @@ public class JumpTrigger : MonoBehaviour {
     {
         if(other.name == "Player") // Make sure is the Players who triggers
         {
-            other.GetComponent<PlayerMovement>().Jump(); 
+            other.GetComponent<PlayerController>().Jump(); 
         }
     }
 }
