@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PickableItem : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public int points = 100;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.name == "Player")
+        {
+            GameObject.Find("GameManager").GetComponent<GameManager>().addPoints(points);
+            Destroy(gameObject);
+        }
+    }
 }

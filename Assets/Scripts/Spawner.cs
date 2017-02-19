@@ -15,9 +15,6 @@ public class Spawner : MonoBehaviour {
     void SpawnObject()
     {
         GameObject go = Instantiate(prefab, transform.position, Quaternion.identity, transform);
-        //ChangeColour colourManager = go.GetComponent<ChangeColour>();
-        //int colourID = Random.Range(0, 4);
-        //colourManager.ChangeColor(go.GetComponent<Renderer>(), colourID);
     }
     
 }

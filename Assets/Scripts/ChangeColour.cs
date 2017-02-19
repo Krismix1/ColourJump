@@ -9,10 +9,11 @@ public class ChangeColour : MonoBehaviour {
     public Material greenMaterial;
     public Material yellowMaterial;
     public GameManager.Colours colour;
+    public int colourID;
 
     private void Start()
     {
-        int colourID = Random.Range(0, 4);
+        colourID = Random.Range(0, 4);
         Renderer rend = GetComponent<Renderer>();
         ChangeColor(rend, colourID);
     }
