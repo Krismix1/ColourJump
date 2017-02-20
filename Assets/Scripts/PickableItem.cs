@@ -10,7 +10,7 @@ public class PickableItem : MonoBehaviour {
     {
         if(other.name == "Player")
         {
-            GameObject.Find("GameManager").GetComponent<GameManager>().addPoints(points);
+            GameObject.Find("GameManager").GetComponent<ScoreManager>().AddScore(points);
             Destroy(gameObject);
         }
     }
