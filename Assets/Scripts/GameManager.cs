@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
     public enum Colours : int {RED = 0, GREEN = 1, BLUE = 2, YELLOW = 3};
 
     public static int gameSpeedMultiplier = 1;
+    public GameObject Player;
     //public Text scoreField;
 
 
@@ -20,6 +21,16 @@ public class GameManager : MonoBehaviour {
     public int GetPoints()
     {
         return points;
+    }
+
+    private void Update()
+    {
+        if(Player.GetComponent<PlayerController>().health <= 0)
+        {
+            Debug.Log("Game over");
+            
+        }
+        
     }
 
 
