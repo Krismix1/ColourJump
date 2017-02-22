@@ -7,11 +7,6 @@ public class PlatformMovement : MonoBehaviour {
     public float zVel = 10f;
 
     private Vector3 pos;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {

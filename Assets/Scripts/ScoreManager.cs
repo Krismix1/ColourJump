@@ -28,7 +28,6 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         score = 0;
-        InvokeRepeating("AddScoreByTime", 0, secondsToGivePoints);
     }
 
     void AddScoreByTime()

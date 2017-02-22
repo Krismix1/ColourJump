@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class OutOfBounds : MonoBehaviour {
 
+    public float zPos = -6;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,7 +13,7 @@ public class OutOfBounds : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(transform.position.z < -6)
+		if(transform.position.z < zPos)
         {
             Destroy(gameObject);
         }

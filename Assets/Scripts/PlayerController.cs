@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour {
     public LayerMask groundLayer;
     public float radius;
     public int health = 2;
+    public AudioSource hitAudio;
+    public ScoreManager scoreManager;
 
     private Rigidbody rb;
     private bool isGrounded = true;
@@ -21,10 +23,6 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         colourManager = GetComponent<ChangeColour>();
         rend = GetComponent<Renderer>();
-        if(rb == null)
-        {
-            Debug.Log("Please attach Rigidbody to the " + transform.name);
-        }
 	}
 
     private void LateUpdate()
@@ -74,11 +72,19 @@ public class PlayerController : MonoBehaviour {
     {
         if(collision.gameObject.tag == "Platform")
         {
-            if(colourManager.colourID != collision.gameObject.GetComponent<ChangeColour>().colourID)
+            scoreManager.AddScore(50);
+            PlayHitAudio();
+            if (colourManager.colourID != collision.gameObject.GetComponent<ChangeColour>().colourID)
             {
                 health--;
-                Debug.Log(health);
             }
         }
+    }
+
+    private void PlayHitAudio()
+    {
+        float pitch = Random.Range(0.5f, 1f);
+        hitAudio.pitch = pitch;
+        hitAudio.Play();
     }
 }
