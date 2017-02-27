@@ -1,0 +1,55 @@
+Mono path[0] = 'C:/Users/Chris/Documents/UnityProjects/ColorJump/GameV0.1/ColourJump_Data/Managed'
+Mono path[1] = 'C:/Users/Chris/Documents/UnityProjects/ColorJump/GameV0.1/ColourJump_Data/Mono'
+Mono config path = 'C:/Users/Chris/Documents/UnityProjects/ColorJump/GameV0.1/ColourJump_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Chris/Documents/UnityProjects/ColorJump/GameV0.1/ColourJump_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55042
+Multi-casting "[IP] 192.168.56.1 [Port] 55042 [Flags] 2 [Guid] 3782248738 [EditorId] 1546790645 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-0RSR4NR) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55042]
+PlayerConnection already initialized - listening to [0.0.0.0:55042]
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2036 MB
+    Driver:   20.19.15.4454
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.080 seconds
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Chris\Documents\UnityProjects\ColorJump\GameV0.1\ColourJump_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 5.324891 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2538 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.917335 ms
+System memory in use before: 49.5 MB.
+System memory in use after: 32.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 400.
+Total: 2.760890 ms (FindLiveObjects: 0.065333 ms CreateObjectMapping: 0.028888 ms MarkObjects: 0.264889 ms  DeleteObjects: 2.400001 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540444 ms
+System memory in use before: 49.6 MB.
+System memory in use after: 35.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 429.
+Total: 2.140889 ms (FindLiveObjects: 0.030222 ms CreateObjectMapping: 0.012888 ms MarkObjects: 0.424000 ms  DeleteObjects: 1.672889 ms)
+
